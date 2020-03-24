@@ -1,12 +1,11 @@
 ---
 layout: home
 header:
-  title: Your Favorite Source of Free Bootstrap Themes
+  title: Bienvenue sur le site de Thibault Guillaumont
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    Entrepreneur dans les technologies holographiques, l'innovation numérique, le DIY
   action: # action button is optional
-    label: Find Out More
+    label: Plus d'informations
     url: '#about'
 
 
@@ -14,12 +13,18 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: Mon site
+    text: Ce site a pour but de regrouper des ressources, formations et informations personnelles sur mon parcours.
     actions:
-      - title: Get Started!
-        url: '#'
+      - title: Mon parcours
+        url: '#parcours'
         class: btn-light
+      - title: Mes projets
+        url: '#portfolio'
+        class: btn-light
+      - title: Ressources
+        url: '#'
+        class: btn-light        
 
   - type: services.html
     section_id: services
@@ -119,44 +124,48 @@ sections:
 
   - type: timeline.html
     section_id: timeline
-    title: Major Achievements!
+    title: Mon parcours !
     background_style: bg-dark text-primary
     last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
         title: >+
-          2017-2018
-          **Humble Beginnings**
+          2008-2014
+          **Iteem**
         text: >-
-          We begun with small group of people willing to work hard and make our
-          teaching skills worth , in front of all others!
+          Master en Ingénierie, Génie Industriel et Entrepreneurial au sein de l'Ecole Centrale de Lille et de Skema Business School
       - image: assets/img/portfolio/thumbnails/2.jpg
         title: >+
-          November 2019
-          An Coaching started
+          2012 - 2014
+          Incubation Holusion
         text: >-
-          We started to gather like minded people and started our stategies
-          and future plans to them. As a result , interested people joined us!
+          Incubation d'un projet entrepreneurial au sein de Tonic Incubation
+      - image: assets/img/portfolio/thumbnails/2.jpg
+        title: >+
+          Mai 2014
+          Création de Holusion SAS
+        text: >-
+          Installation de l'entreprise au cœur du site d'Excellence Numérique de la Plaine Images à Tourcoing        
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Restons en contact !
     text: >-
-      Ready to start your next project with us? Give us a call or send us an email
-      and we will get back to you as soon as possible!
+      Envie de démarrer un projet ? Discuter d'une nouvelle technologie ? M'assigner devant un tribunal ?
     actions:
-    - title: +1 (202) 555-014
+    - title: +33 7 86 93 13 74
       icon: fa-phone
     - title: E-Mail
       icon: fa-envelope
-      url: mailto:contact@yourwebsite.com
+      url: mailto:t.guillaumont@holusion.com
     - title: Twitter
       icon: fa-twitter
       icon_type: fab
-      url: '#'
+      url: 'https://twitter.com/tguillaumont'
     - title: Facebook
       icon: fa-facebook
       icon_type: fab
-      url: '#'
-
+      url: 'https://www.facebook.com/thibault.guillaumont'
+    endText: >-
+      Si c'est vraiment pour le tribunal. Je tiens à dire que c'est sûrement mon jumeau maléfique que vous cherchez en vrai.
 ---
