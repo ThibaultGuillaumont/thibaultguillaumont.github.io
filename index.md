@@ -12,9 +12,14 @@ header:
 sections:
   - type: call-to-action.html
     section_id: about
-    background_style: bg-primary
+    background_style: bg-secondary
     title: Mon site
-    text: Ce site a pour but de regrouper des ressources, formations et informations personnelles sur mon parcours.
+    text: >
+      Ce site a pour but de regrouper des ressources, formations et informations personnelles sur mon parcours.<br/>
+
+      <div>Léno, si tu lis ce message, c'est que tu as réussi à arrêter de jouer à Animal Crossing pendant au moins 5min</div>
+
+      <div style="margin-top:15px">Je suis fier de toi.</div>
     actions:
       - title: Mon parcours
         url: '#parcours'
@@ -29,35 +34,34 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: A votre service
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: Ingénieur
+        text: Diplômé École Centrale de Lille
         icon: fa-gem text-info
-        url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+      - title: Entrepreneur
+        text: Co-fondateur chez Holusion
         icon: fa-paper-plane
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Enseignant
+        text: Chargé d'un module d'entrepreneuriat à l'Esdhem
         icon: fa-laptop-code
-      - title: Made with Love
-        text: You have to make your websites with love these days!
+      - title: Infographiste 3D
+        text: Créateur de rendus 3D sous Blender
         icon: fa-heart
-      - title: Other 1
-        text: Some not-so long text here.
+      - title: Manager de projets
+        text: Certifié Prince2 et expérience terrain
         icon: fa-heart
-      - title: Other 2
-        text: Some not-so long text here.
-        icon: fa-heart
+      - title: Développeur web
+        text: Vous croyez vraiment que ce site s'est fait tout seul ?
+        icon: fa-laptop-code        
 
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
     #background_style: bg-dark
     projects:
-      - title: Project 1
-        text: This is a very short project description.
+      - title: Boulangerie artisanale
+        text: Recette de baguette maison croustillante
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
@@ -86,64 +90,35 @@ sections:
 
   - type: aside.html
     section_id: aside
-    title: Free Download at Start Bootstrap!
+    title: Mon projet principal à découvrir ici
     actions:
-      - title: Download Now!
-        url: https://startbootstrap.com/themes/creative/
+      - title: Holusion
+        url: https://holusion.com
         class: btn-light
 
-  - type: members.html
-    section_id: members
-    title: Our Crew!
-    background_style: bg-info text-white
-    members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
-        url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
-        url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
-        url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
-        url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
-        url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
-        url: '#'
 
   - type: timeline.html
     section_id: timeline
     title: Mon parcours !
-    background_style: bg-dark text-primary
+    background_style: bg-dark text-white
     last_image: assets/img/timeline-end.png
     actions:
       - image: assets/img/portfolio/thumbnails/1.jpg
         title: >+
-          2008-2014
+          2008-2013
           **Iteem**
         text: >-
           Master en Ingénierie, Génie Industriel et Entrepreneurial au sein de l'Ecole Centrale de Lille et de Skema Business School
       - image: assets/img/portfolio/thumbnails/2.jpg
         title: >+
           2012 - 2014
-          Incubation Holusion
+          **Incubation Holusion**
         text: >-
           Incubation d'un projet entrepreneurial au sein de Tonic Incubation
       - image: assets/img/portfolio/thumbnails/2.jpg
         title: >+
           Mai 2014
-          Création de Holusion SAS
+          Création de **Holusion SAS**
         text: >-
           Installation de l'entreprise au cœur du site d'Excellence Numérique de la Plaine Images à Tourcoing        
 

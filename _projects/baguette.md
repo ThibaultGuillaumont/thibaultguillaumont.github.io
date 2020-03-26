@@ -6,16 +6,11 @@ background_image: url('/assets/img/backgrounds/baguette-bg.jpg')
 
 
 sections:
-
 - type: paragraph.html
   section_id: more-to-come
   title: "Atelier pain : faire sa propre baguette"
 #  background_style: bg-info
 #  text_style: text-left text-white
-  actions:
-   - title: Markdown is fun!
-     class: btn-info
-     url: '#'
   text: >+
     ### Typographic replacements
 
@@ -67,4 +62,8 @@ sections:
     2. Consectetur adipiscing elit
     3. Integer molestie lorem at massa
 
+- type: image.html
+  background_style: bg-dark
+  img_src : projects/pain_fini.jpg
+  description : Des baguettes de pain
 ---
