@@ -25,7 +25,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #336699;
-  --secondary: #6c757d;
+  --secondary: #993333;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -6275,7 +6275,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #33404c !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -9619,7 +9619,7 @@ hr.light {
 @media (min-width: 992px) {
   #mainNav {
     box-shadow: none;
-    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.15);
   }
   #mainNav .navbar-brand {
     color: rgba(255, 255, 255, 0.7);
@@ -9658,7 +9658,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(50, 102, 153, 0.5) 0%, rgba(50, 102, 153, 0.5) 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -9711,7 +9711,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  background: rgba(153, 51, 51, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }

@@ -25,3 +25,8 @@ exclude:
 
 sass:
     style: compressed
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/

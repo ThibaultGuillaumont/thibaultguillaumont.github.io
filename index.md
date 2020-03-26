@@ -61,8 +61,8 @@ sections:
         # the images are located in:
         # img/portfolio/fullsize
         # img/portfolio/thumbnails
-        icon: 1.jpg
-        url: '#'
+        icon: baguette.jpg
+        url: 'projects/baguette'
       - title: Project 2
         text: This is a very short project description.
         icon: 2.jpg
