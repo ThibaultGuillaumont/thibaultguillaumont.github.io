@@ -2,7 +2,7 @@
 layout: page
 title: Baguette
 #background_style: bg-info
-background_image: url('/assets/img/backgrounds/baguette-bg.jpg')
+background_image: url('{{site.url}}/assets/img/backgrounds/baguette-bg.jpg')
 
 
 sections:
