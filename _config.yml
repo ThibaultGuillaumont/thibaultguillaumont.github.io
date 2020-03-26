@@ -1,8 +1,9 @@
 # Site settings
 title: Thibault Guillaumont's Website
 description: > # this means to ignore newlines until "baseurl:"
-baseurl: "/me/" # the subpath of your site, e.g. /blog/
+baseurl: "/me" # the subpath of your site, e.g. /blog/
 url: "https://thibaultguillaumont.github.io" # the base hostname & protocol for your site
+site_url: "https://thibaultguillaumont.github.io" 
 author: Copyright &copy; 2019 - Start Bootstrap
 lang: en_US
 
