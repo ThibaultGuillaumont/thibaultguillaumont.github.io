@@ -25,7 +25,7 @@ sections:
     "Smartypants, double quotes" and 'single quotes'
 
 
-    ### Emphasis
+    ### Emphasis placeholder
 
     **This is bold text**
 
