@@ -16,10 +16,6 @@ sections:
     title: Mon site
     text: >
       Ce site a pour but de regrouper des ressources, formations et informations personnelles sur mon parcours.<br/>
-
-      <div>Léno, si tu lis ce message, c'est que tu as réussi à arrêter de jouer à Animal Crossing pendant au moins 5min</div>
-
-      <div style="margin-top:15px">Je suis fier de toi.</div>
     actions:
       - title: Mon parcours
         url: '#parcours'
@@ -70,7 +66,7 @@ sections:
       - title: Project 2
         text: This is a very short project description.
         icon: 2.jpg
-        url: '#'
+        url: 'pipometer'
       - title: Project 3
         text: This is a very short project description.
         icon: 3.jpg
@@ -124,6 +120,7 @@ sections:
 
   - type: contact.html
     section_id: contacts
+    background_style : contact
     title: Restons en contact !
     text: >-
       Envie de démarrer un projet ? Discuter d'une nouvelle technologie ? M'assigner devant un tribunal ?

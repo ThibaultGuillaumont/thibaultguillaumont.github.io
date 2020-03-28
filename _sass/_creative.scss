@@ -626,6 +626,7 @@ pre code {
   flex-basis: 0;
   flex-grow: 1;
   max-width: 100%;
+  min-width: 150px;
 }
 
 .col-auto {
@@ -2214,7 +2215,9 @@ textarea.form-control {
   display: inline-block;
   font-weight: 400;
   color: #212529;
+  margin : 5px;
   text-align: center;
+  white-space: nowrap;
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -9729,4 +9732,9 @@ header.masthead h1 {
 
 #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
+}
+
+
+.contact > div > div > div {
+  margin-bottom : 25px
 }
