@@ -63,9 +63,9 @@ sections:
         # img/portfolio/thumbnails
         icon: baguette.jpg
         url: 'projects/baguette'
-      - title: Project 2
-        text: This is a very short project description.
-        icon: 2.jpg
+      - title: Le pipomètre
+        text: Un detecteur de pipeau en Html
+        icon: pipo.jpg
         url: 'pipometer'
       - title: Project 3
         text: This is a very short project description.

@@ -33,6 +33,7 @@ sections:
 
     * 150 ml **d'eau**
 
+
     **Ustensiles**
 
     * Un **pot** sans fermeture hermétique (*Un pot Le Parfait sans le joint en caoutchouc par exemple*
@@ -85,7 +86,9 @@ sections:
 - type: image.html
   background_style: bg-dark
   img_src : projects/levain.jpg
-  description : Des baguettes de pain    
+  description : Des baguettes de pain
+  caption: Un pot de **levain chef** pret à l'utilisation. Un élastique autour du pot permet de surveiller le niveau et le gonflement du levain.
+   
 
 
 - type: paragraph.html
@@ -94,7 +97,7 @@ sections:
    #  background_style: bg-info
    #  text_style: text-left text-whit
   text: >+
-    Un pot de **levain chef** pret à l'utilisation. Un élastique autour du pot permet de surveiller le niveau et le gonflement du levain.
+
 
 
     ## Utiliser le levain

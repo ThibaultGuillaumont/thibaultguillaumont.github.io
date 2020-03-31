@@ -1,9 +1,14 @@
 <section class="{{ section.background_style }}">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 {{ section.text_style | default: 'text-center' }}">
-        <img class="img-fluid" src="/assets/img/{{section.img_src}}" alt="{{section.description}}">
-      </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 {{ section.text_style | default: 'text-center' }}">
+                <img class="img-fluid" src="/assets/img/{{section.img_src}}" alt="{{section.description}}">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10 caption text-center"">
+                {{section.caption | markdownify}}
+            </div>
+        </div>
     </div>
-  </div>
 </section>
