@@ -25,7 +25,12 @@ sections:
 
     Il faut garder en tête que le levain est **vivant** et s'active avec la température. Il faut bien l'entretenir et faire attention ! Le chaud accélère sa croissance, le froid la met en pause. On peut même le laisser "*hiberner*" au frigo pendant des semaines.
 
-    ### Recette d'une base de levain
+- type: paragraph.html
+  section_id: a
+  title: "Recette d'une base de levain"
+  background_style: bg-info
+  text_style: text-justify text-white
+  text: >
 
     **Ingrédients**
 
@@ -52,6 +57,12 @@ sections:
 
     4. *Voilà*
 
+- type: paragraph.html
+  section_id: b
+  title: ""
+#  background_style: bg-info
+  text_style: text-justify text-muted
+  text: >
 
     Normalement, c'est l'étape ou vous allez trouver un million de conseils sur la farine à utiliser, ou le fait de devoir rajouter de l'eau et de la farine pour "*nourrir*" le levain tous les jours avec un rituel inutilement compliqué.
 
@@ -87,27 +98,26 @@ sections:
   background_style: bg-dark
   img_src : projects/levain.jpg
   description : Des baguettes de pain
-  caption: Un pot de **levain chef** pret à l'utilisation. Un élastique autour du pot permet de surveiller le niveau et le gonflement du levain.
-   
+  caption: Un pot de **levain chef** tout juste réalimenté après avoir été utilisé pour faire un pain. Un élastique autour du pot permet de surveiller le niveau et le gonflement du levain.
+
 
 
 - type: paragraph.html
   section_id: more-to-come
-  title: ""
+  title: "Utiliser le levain"
    #  background_style: bg-info
    #  text_style: text-left text-whit
   text: >+
 
 
-
-    ## Utiliser le levain
-
     Le levain est donc vivant, son  goût et son pouvoir de fermentation vont dépendre du niveau d'activité.
 
 
-    D'abord, un levain froid agira plus lentement qu'un chaud, il faut donc placer le levain ou la pate ensemencée dans un endroit chaud pour qu'elle lève plus vite.
+    D'abord, un levain froid agira plus lentement qu'un chaud, il faut donc placer le levain ou la pâte ensemencée dans un endroit chaud pour qu'elle lève plus vite.
 
-    Pour utiliser le levain dans un pâte à pain, on va en prélever 200g et l'ajouter aux autres ingrédients. On fera attention que le levain contient 100g de farine et 100g d'eau ! Il faudra les déduire des autres ingrédients pour éviter un pain trop sec ou humide.
+    Pour utiliser le levain dans une pâte à pain, on va en **prélever une partie et l'ajouter aux autres ingrédients**. Par exemple, pour un pain de 500g, on prendra 200g de levain le pot du levain chef. On fera attention que le levain contient 100g de farine et 100g d'eau !
+
+    Il faudra les déduire des autres ingrédients pour éviter un pain trop sec ou humide.
 
 
     **Par exemple**, un pain normal avec :
@@ -139,7 +149,7 @@ sections:
     Le levain va avoir plusieurs stades de croissance :
 
 
-    1. **Démarrage** : juste après avoir utilisé du levain, on remplace la partie prélevée par de la farine et de l'eau. Durant ce temps, les levures sont très dilluées et leur pouvoir d'action est fortement réduit
+    1. **Démarrage** : juste après avoir utilisé du levain, on remplace la partie prélevée par de la farine et de l'eau. Durant ce temps, les levures sont très diluées et leur pouvoir d'action est fortement réduit
 
 
     2. **Actif** : au bouts de quelques heures, le levain a colonisé tout le pot et se trouve à son maximum d’activité, le levain enfle fortement. Utilisé à ce stade, il donnera un goût proche de la levure boulangère.

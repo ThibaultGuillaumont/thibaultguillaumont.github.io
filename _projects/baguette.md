@@ -39,7 +39,7 @@ sections:
   section_id: more-to-come
   title: ""
    #  background_style: bg-info
-   #  text_style: text-left text-whit
+   #  text_style: text-left text-white
   text: >+
     "Smartypants, double quotes" and 'single quotes'
     ### Emphasis placeholder
