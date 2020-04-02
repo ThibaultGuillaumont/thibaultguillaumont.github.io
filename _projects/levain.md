@@ -28,7 +28,7 @@ sections:
 - type: paragraph.html
   section_id: a
   title: "Recette d'une base de levain"
-  background_style: bg-info
+  background_style: bg-info text-white
   text_style: text-justify text-white
   text: >
 
@@ -165,7 +165,7 @@ sections:
     A tout instant, il est possible de mettre le levain en stase en le **plaçant au frigo** !
 
 
-    La seule chose à prendre en compte est qu'un levain froid aura besoin de quelques heures de plus pour reprendre ses propriétés actives.
+    La seule chose à prendre en compte est qu'un levain froid aura besoin de quelques heures de plus pour reprendre ses propriétés actives. **Dans le doute, conservez toujours votre levain au frais**.
 
 - type: image.html
   background_style: bg-dark

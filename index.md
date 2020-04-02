@@ -34,19 +34,19 @@ sections:
     services:
       - title: Ingénieur
         text: Diplômé École Centrale de Lille
-        icon: fa-gem text-info
+        icon: fa-glasses
       - title: Entrepreneur
         text: Co-fondateur chez Holusion
-        icon: fa-paper-plane
+        icon: fa-business-time
       - title: Enseignant
         text: Chargé d'un module d'entrepreneuriat à l'Esdhem
-        icon: fa-laptop-code
+        icon: fa-chalkboard-teacher
       - title: Infographiste 3D
         text: Créateur de rendus 3D sous Blender
-        icon: fa-heart
+        icon: fa-cubes
       - title: Manager de projets
         text: Certifié Prince2 et expérience terrain
-        icon: fa-heart
+        icon: fa-project-diagram
       - title: Développeur web
         text: Vous croyez vraiment que ce site s'est fait tout seul ?
         icon: fa-laptop-code        
@@ -67,21 +67,9 @@ sections:
         text: Un detecteur de pipeau en Html
         icon: pipo.jpg
         url: 'pipometer'
-      - title: Project 3
-        text: This is a very short project description.
-        icon: 3.jpg
-        url: '#'
-      - title: Project 4
-        text: This is a very short project description.
-        icon: 4.jpg
-        url: '#'
-      - title: Project 5
-        text: This is a very short project description.
-        icon: 5.jpg
-        url: '#'
-      - title: Project 6
-        text: This is a very short project description.
-        icon: 6.jpg
+      - title: Entrepreneuriat
+        text: Holusion, une fabrication française de générateurs d'hologrammes.
+        icon: holusion_lg.jpg
         url: '#'
 
   - type: aside.html
@@ -99,19 +87,19 @@ sections:
     background_style: bg-dark text-white
     last_image: assets/img/timeline-end.png
     actions:
-      - image: assets/img/portfolio/thumbnails/1.jpg
+      - image: assets/img/portfolio/thumbnails/chine.jpg
         title: >+
           2008-2013
           **Iteem**
         text: >-
           Master en Ingénierie, Génie Industriel et Entrepreneurial au sein de l'Ecole Centrale de Lille et de Skema Business School
-      - image: assets/img/portfolio/thumbnails/2.jpg
+      - image: assets/img/portfolio/thumbnails/tonic.jpg
         title: >+
           2012 - 2014
           **Incubation Holusion**
         text: >-
           Incubation d'un projet entrepreneurial au sein de Tonic Incubation
-      - image: assets/img/portfolio/thumbnails/2.jpg
+      - image: assets/img/portfolio/thumbnails/holusion.jpg
         title: >+
           Mai 2014
           Création de **Holusion SAS**
