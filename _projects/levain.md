@@ -2,7 +2,7 @@
 layout: page
 title: Faire son propre levain maison
 #background_style: bg-info
-background_image: url('/assets/img/backgrounds/baguette-bg.jpg')
+background_image: url('/assets/img/backgrounds/levain-bg.jpg')
 
 
 sections:
@@ -96,9 +96,9 @@ sections:
 
 - type: image.html
   background_style: bg-dark
-  img_src : projects/levain.jpg
+  img_src : projects/levain_pret.jpg
   description : Des baguettes de pain
-  caption: Un pot de **levain chef** tout juste réalimenté après avoir été utilisé pour faire un pain. Un élastique autour du pot permet de surveiller le niveau et le gonflement du levain.
+  caption: Un pot de **levain chef** prêt à l'emploi ! On observe les bulles dans la pâte causée par les levures actives à l'intérieur.
 
 
 
@@ -166,6 +166,12 @@ sections:
 
 
     La seule chose à prendre en compte est qu'un levain froid aura besoin de quelques heures de plus pour reprendre ses propriétés actives.
+
+- type: image.html
+  background_style: bg-dark
+  img_src : projects/levain.jpg
+  description : Des baguettes de pain
+  caption: Un pot de **levain chef** tout juste réalimenté après avoir été utilisé pour faire un pain. Un élastique autour du pot permet de surveiller le niveau et le gonflement du levain.
 
 
 ---

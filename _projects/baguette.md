@@ -37,47 +37,21 @@ sections:
 
 - type: paragraph.html
   section_id: more-to-come
-  title: ""
+  title: "La baguette"
    #  background_style: bg-info
    #  text_style: text-left text-white
   text: >+
-    "Smartypants, double quotes" and 'single quotes'
-    ### Emphasis placeholder
+    Tradition française par excellence, la **baguette maison** est un parfait moyen d'assouvir votre inconscient patriotique obsessif tout en gardant une alimentation saine et la saveur innocente d'un pain fait chez soi.
+    
 
-    **This is bold text**
-
-    __This is bold text__
-
-    *This is italic text*
-
-    _This is italic text_
-
-    ~~Strikethrough~~
+    La baguette est
 
 
-    ### Blockquotes
-
-    > Blockquotes can also be nested...
-    >> ...by using additional greater-than signs right next to each other...
-    > > > ...or with spaces between arrows.
-
-    ### Lists
-
-    Unordered
-
-    + Create a list by starting a line with `+`, `-`, or `*`
-    + Sub-lists are made by indenting 2 spaces:
-    - Marker character change forces new list start:
-      * Ac tristique libero volutpat at
-      + Facilisis in pretium nisl aliquet
-      - Nulla volutpat aliquam velit
-    + Very easy!
-
-    Ordered
-
-    1. Lorem ipsum dolor sit amet
-    2. Consectetur adipiscing elit
-    3. Integer molestie lorem at massa
-
+- type: paragraph.html
+  section_id: more-to-come
+  title: "Préparer la pâte"
+  background_style: bg-info
+     #  text_style: text-left text-white
+  ext: >+
 
 ---

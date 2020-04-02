@@ -94,7 +94,7 @@ sections:
 
 
   - type: timeline.html
-    section_id: timeline
+    section_id: parcours
     title: Mon parcours !
     background_style: bg-dark text-white
     last_image: assets/img/timeline-end.png
