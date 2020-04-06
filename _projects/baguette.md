@@ -105,21 +105,21 @@ sections:
 
 - type: paragraph.html
   section_id: more-to-come
-  title: "Le pétrissage et le repos"
+  title: "Le pétrissage"
 #  background_style: bg-info
   text_style: md-4 text-muted
   text: >
     # Deux étapes primordiales
 
 
-    A moins que vous ne faites partie de la caste privilégiée des propriétaires *nantis* d'un robot de cuisine avec crochet, vous allez devoir pétrir vous même votre pâte à pain.
+    A moins que vous ne faites partie de la caste privilégiée des propriétaires *nantis* équipé d'un robot de cuisine avec crochet, vous allez devoir pétrir vous même votre pâte à pain.
 
 
 
     Pour cela, **trois cas de figure** :
 
 
-    1. Votre dosage d'eau et de farine est **idéal**, après un premier mélange et quelques pétrissage dans le bol, la boule de pâte est déjà bien formée.
+    1. Votre dosage d'eau et de farine est **idéal**, après un premier mélange et quelques pétrissages dans le bol, la boule de pâte est déjà bien formée.
 
         * Farinez un peu le plan de travail et vos mains
 
@@ -131,7 +131,7 @@ sections:
 
 
 
-    1. Votre pâte est **trop humide** : elle à colle à tout, sauf à elle même. Elle est un blob à L’appétit insatiable qui mangera vos main, votre alliance, vos animaux domestiques si ils s'approchent trop, et ne les rendra jamais.
+    1. Votre pâte est **trop humide** : elle à colle à tout, sauf à elle même. Elle est un blob à l’appétit insatiable qui mangera vos main, votre alliance, vos animaux domestiques si ils s'approchent trop, et ne les rendra jamais.
 
         * Gardez un sachet de farine à proximité.
 
@@ -161,7 +161,7 @@ sections:
 
 - type: paragraph.html
   section_id: more-to-come
-  title: "Le pétrissage et le repos"
+  title: "Le repos"
  #  background_style: bg-info
   text_style: md-4 text-muted
   text: >
@@ -196,8 +196,6 @@ sections:
     Le tout doit être prêt à être enfourné.
 
 
-    Préparez avec un couteau bien affûté des entaille sur le pain. Ça aidera le pain à gonfler au four proprement sans se déchirer.
-
 - type: image.html
   background_style: bg-dark
   img_src : projects/patons.jpg
@@ -217,7 +215,6 @@ sections:
 
     * <i class="fas fa-stopwatch  "></i> Entre 40min et pas plus d'une heure !
 
-
     Il est très important que la seconde levée ne soit pas trop longue, sinon, le pain va retomber sur lui même et sa structure sera trop dense après la cuisson.
 
 
@@ -230,6 +227,7 @@ sections:
 
     Lorsque le four est bien chaud et que l'eau dans le plat est en train de bouillir, basculez le four sur **chaleur tournante**
 
+    * <i class="fas fa-cut"></i> Préparez avec un couteau bien affûté des entaille sur le pain. Ça aidera le pain à gonfler au four proprement sans se déchirer.
 
     * Enfournez votre plaque avec les baguettes *sans vous brûler*
 

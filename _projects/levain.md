@@ -64,7 +64,7 @@ sections:
   text_style: text-justify text-muted
   text: >
 
-    Normalement, c'est l'étape ou vous allez trouver un million de conseils sur la farine à utiliser, ou le fait de devoir rajouter de l'eau et de la farine pour "*nourrir*" le levain tous les jours avec un rituel inutilement compliqué.
+    Normalement, c'est l'étape ou vous allez trouver un million de conseils sur la farine à utiliser, ou le fait de devoir rajouter de l'eau et de la farine pour "*nourrir*" le levain tous les jours avec un rituel inutilement compliqué à base de *miel d'épicéa* et d'eau *dé-chlorée*.
 
 
     C'est une **feinte**.
