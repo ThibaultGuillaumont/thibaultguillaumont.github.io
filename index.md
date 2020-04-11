@@ -54,7 +54,7 @@ sections:
   - type: portfolio.html
     # this section has always ID 'portfolio'
     #section_id: portfolio
-    #background_style: bg-dark
+    background_style: bg-secondary
     projects:
       - title: Boulangerie artisanale
         text: Recette de baguette maison croustillante
