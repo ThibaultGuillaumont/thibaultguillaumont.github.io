@@ -71,7 +71,7 @@ sections:
         text: Holusion, une fabrication française de générateurs d'hologrammes.
         icon: holusion_lg.jpg
         url: 'https://holusion.com'
-    -   title: Front
+      - title: Front
         text: Un minijeu en développement HTML5.
         icon: front.jpg
         url: 'front'
