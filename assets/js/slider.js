@@ -94,4 +94,4 @@ function initComparisons() {
   }
 }
 
-initComparisons();
+window.onload = initComparisons();
