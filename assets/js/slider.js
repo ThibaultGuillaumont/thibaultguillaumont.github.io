@@ -13,7 +13,7 @@ function initComparisons() {
     loaded=false;
 
     while(loaded) {
-      container.children[1].children[0].onload = function() {loaded=true}
+      container.children[1].children[0].onload = function() {loaded=true;console.log("loaded")}
     }
     console.log("loaded")
 
