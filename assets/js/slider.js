@@ -8,6 +8,7 @@ function initComparisons() {
     compareImages(x[i]);
   }
   function compareImages(img) {
+    var ratio = 0.5;
     var slider, img, clicked = 0, w, h;
     /*get the width and height of the img element*/
     w = img.offsetWidth;
@@ -16,15 +17,15 @@ function initComparisons() {
     container = document.getElementById("slider");
     container.style.minHeight = h + "px";
     /*set the width of the img element to 50%:*/
-    img.style.clip = "rect(0px, " + (w / 2) + "px, " + img.offsetHeight  + "px, 0px)";
+    img.style.clip = "rect(0px, " + (w * ratio) + "px, " + img.offsetHeight  + "px, 0px)";
     /*create slider:*/
     slider = document.createElement("DIV");
     slider.setAttribute("class", "img-comp-slider");
     /*insert slider*/
     img.parentElement.insertBefore(slider, img);
     /*position the slider in the middle:*/
-    slider.style.top = (h / 2) - (slider.offsetHeight / 2) + "px";
-    slider.style.left = (w / 2) - (slider.offsetWidth / 2) + "px";
+    slider.style.top = (h * ratio) - (slider.offsetHeight / 2) + "px";
+    slider.style.left = (w * ratio) - (slider.offsetWidth / 2) + "px";
     /*execute a function when the mouse button is pressed:*/
     slider.addEventListener("mousedown", slideReady);
     /*and another function when the mouse button is released:*/
@@ -33,7 +34,7 @@ function initComparisons() {
     slider.addEventListener("touchstart", slideReady);
     /*and released (for touch screens:*/
     window.addEventListener("touchstop", slideFinish);
-    window.addEventListener("onresize", slideMove);
+    window.addEventListener("resize", slideResize);
     function slideReady(e) {
       /*prevent any other actions that may occur when moving over the image:*/
       e.preventDefault();
@@ -46,6 +47,16 @@ function initComparisons() {
     function slideFinish() {
       /*the slider is no longer clicked:*/
       clicked = 0;
+    }
+    function slideResize() {
+      console.log("resized!");
+      x = ratio*img.offsetWidth;
+      w = img.offsetWidth;
+      h = img.offsetHeight;
+      container.style.minHeight = h + "px";
+      img.style.clip = "rect(0px, " + x + "px, " + img.offsetHeight  + "px, 0px)";
+      slider.style.left = x - (slider.offsetWidth / 2) + "px";
+      slider.style.top = (h * ratio) - (slider.offsetHeight / 2) + "px";
     }
     function slideMove(e) {
       var pos;
@@ -77,6 +88,8 @@ function initComparisons() {
 
       /*position the slider:*/
       slider.style.left = x - (slider.offsetWidth / 2) + "px";
+      //save ratio
+      ratio = x/img.offsetWidth;
     }
   }
 }
