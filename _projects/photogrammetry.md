@@ -1,34 +1,31 @@
 ---
 layout: page
-title: Baguette
+title: Photogrammétrie
 #background_style: bg-info
 background_image: url('/assets/img/backgrounds/baguette-bg.jpg')
 
-
 sections:
-
-- type: paragraph.html
+- type: code.html
   section_id: more-to-come
-  title: "Atelier pain : faire sa propre baguette"
 #  background_style: bg-info
 #  text_style: text-left text-white
   text: >
+    <span style="color:#8AE234;font-weight:700">❯ </span> sudo apt install colmap
+    
+    [sudo] Mot de passe de thibault: 
 
-    ## Le levain
+    Lecture des listes de paquets... Fait
 
-    Pas de **levure de boulanger** ici !
+    Construction de l'arbre des dépendances
 
+    Lecture des informations d'état... Fait
 
-    Un levain est une forme de ferment naturel, issu du développements de micro-organismes particulier naturellement présents dans la farine et l'air. Il permet dans notre cas la fermentation dans la pâte à pain permettant sa *levée*.
+    colmap est déjà la version la plus récente (3.5-1+b1).
 
-
-    A la différence de la levure de boulanger qu'on trouve dans le commerce, il donne un pain plus rustique, acidulé et à la mie irrégulière. Il permet également de conserver le pain plus longtemps.
-
-
-    Le levain qui nous intéresse ici dans la boulangerie est un mélange de farine et d'eau abritant ces levures naturelles qui est entretenu régulièrement et utilisé pour réaliser les pains. Un petit bout prélevé permettra d'ensemencer la pâte de pain au levain pour en assurer la levée.
+    0 mis à jour, 0 nouvellement installés, 0 à enlever et 0 non mis à jour.
 
 
-    [*Créer son propre levain, c'est par là !*](../levain)
+    [*Sources pour l'installation de Colmap et autres dépôts*](https://colmap.github.io/install.html)
 
 
 

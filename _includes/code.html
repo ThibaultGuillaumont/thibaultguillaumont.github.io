@@ -1,0 +1,11 @@
+<section id="{{ section.section_id }}" class="page-section-smaller {{ section.background_style }}">
+  <div class="container">
+    <div class="row code justify-content-left">
+      <div class="mb-4 {{ section.text_style | default: "code" }}">
+          <p style="font-weight:bold">thibault@guillaumont: {{path | default: "~"}}</p>
+        {{ section.text | markdownify | newline_to_br }}
+      </div>
+    </div>
+    {% include actions.html actions=section.actions %}
+  </div>
+</section>

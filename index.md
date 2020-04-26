@@ -75,6 +75,10 @@ sections:
         text: Un minijeu en développement HTML5.
         icon: front.jpg
         url: 'front'
+      - title: Blender
+        text: Logiciel de rendu 3D Open Source
+        url: 'projects/blender'
+        icon: escalier.jpg
 
 
   - type: aside.html
