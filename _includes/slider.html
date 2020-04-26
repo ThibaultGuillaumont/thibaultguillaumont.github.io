@@ -3,7 +3,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div>
-  <div id="slider" class="img-comp-container">
+  <div id="{{ section.section_id | default: slider }}" class="img-comp-container">
     <div class="img-comp-img">
       <img src="/assets/img/{{section.img_1}}">
     </div>

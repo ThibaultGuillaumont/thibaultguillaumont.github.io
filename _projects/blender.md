@@ -18,7 +18,7 @@ sections:
 
 
 - type : slider.html
-  section_id: slider
+  section_id: slider1
   img_1: slider/escalier-0204_cycle.png
   img_2: slider/escalier-0204.png
 
@@ -31,7 +31,7 @@ sections:
 
       ## Découverte de Blender
 - type : slider.html
-  section_id: slider
+  section_id: slider2
   img_1: slider/escalier.png
   img_2: slider/escalier-eevee.png
 ---
