@@ -1,20 +1,22 @@
 function initComparisons() {
   var x, i;
   /*find all elements with an "overlay" class:*/
-  x = document.getElementsByClassName("img-comp-overlay");
+  x = document.getElementsByClassName("img-comp-container");
   for (i = 0; i < x.length; i++) {
     /*once for each "overlay" element:
     pass the "overlay" element as a parameter when executing the compareImages function:*/
     compareImages(x[i]);
   }
-  function compareImages(img) {
+  function compareImages(container) {
+    console.log(container.children[1])
+    img = container.children[1]
     var ratio = 0.5;
     var slider, img, clicked = 0, w, h;
     /*get the width and height of the img element*/
     w = img.offsetWidth;
     h = img.offsetHeight;
     //set container size
-    container = document.getElementById("slider");
+    //container = document.getElementById("slider");
     container.style.minHeight = h + "px";
     /*set the width of the img element to 50%:*/
     img.style.clip = "rect(0px, " + (w * ratio) + "px, " + img.offsetHeight  + "px, 0px)";
