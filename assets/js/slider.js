@@ -103,5 +103,6 @@ function initComparisons() {
     }
   }
 }
-
-document.onload = initComparisons();
+window.addEventListener("load",initComparisons,false);
+window.attachEvent && window.attachEvent("onload",initComparisons);
+//document.onload = initComparisons();
