@@ -10,11 +10,13 @@ function initComparisons() {
   function compareImages(container) {
     console.log(container.children[1])
     img = container.children[1]
+
     var ratio = 0.5;
     var slider, img, clicked = 0, w, h;
     /*get the width and height of the img element*/
     w = img.offsetWidth;
     h = img.offsetHeight;
+    console.log(w)
     //set container size
     //container = document.getElementById("slider");
     container.style.minHeight = h + "px";
@@ -96,4 +98,4 @@ function initComparisons() {
   }
 }
 
-window.onload = initComparisons();
+document.onload = initComparisons();
