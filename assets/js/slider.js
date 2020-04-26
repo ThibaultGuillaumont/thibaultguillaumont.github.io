@@ -69,6 +69,7 @@ function initComparisons() {
       slider.style.top = (h * ratio) - (slider.offsetHeight / 2) + "px";
     }
     function slideMove(e) {
+
       var pos;
       /*if the slider is no longer clicked, exit this function:*/
       if (clicked == 0) return false;
@@ -86,7 +87,8 @@ function initComparisons() {
       /*get the x positions of the image:*/
       a = img.getBoundingClientRect();
       /*calculate the cursor's x coordinate, relative to the image:*/
-      x = e.pageX - a.left;
+      dx = e.pageX || e.changedTouches[0].pageX
+      x = dx - a.left;
       /*consider any page scrolling:*/
       x = x - window.pageXOffset;
       return x;
