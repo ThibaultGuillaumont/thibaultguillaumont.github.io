@@ -29,6 +29,9 @@ sections:
   #  text_style: text-left text-white
   text: >
 
-      ## Comparaison des moteurs de rendus Eevee et Cycle  
-
+      ## Découverte de Blender
+- type : slider.html
+  section_id: slider
+  img_1: slider/escalier.png
+  img_2: slider/escalier-eevee.png
 ---
