@@ -11,9 +11,12 @@ function initComparisons() {
     console.log(container.children[1].children[0])
     img = container.children[1]
     loaded=false;
+
     while(loaded) {
       container.children[1].children[0].onload = function() {loaded=true}
     }
+    console.log("loaded")
+
     var ratio = 0.5;
     var slider, img, clicked = 0, w, h;
     /*get the width and height of the img element*/
