@@ -79,6 +79,11 @@ sections:
         text: Logiciel de rendu 3D Open Source
         url: 'projects/blender'
         icon: escalier.jpg
+      - title: Visite 360
+        text: Exploration de vue à 360°
+        url: 'projects/visite360'
+        icon: panorama.jpg
+        
 
 
   - type: aside.html
