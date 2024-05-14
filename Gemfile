@@ -4,14 +4,14 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "github-pages", "~> 202"
+gem "github-pages", "~> 231"
 
 group :noupdate do
-  gem "ffi", "= 1.12.1"
-  gem "nokogiri", "1.15.6"
+  gem "ffi", "1.16.3"
+  gem "nokogiri", "1.16.5"
 end
 
 group :jekyll_plugins do
-  gem "jekyll-sitemap", "~> 1.2"
-  gem "jekyll-seo-tag", "~> 2.5"
+  gem "jekyll-sitemap", "~> 1.4"
+  gem "jekyll-seo-tag", "~> 2.8"
 end
