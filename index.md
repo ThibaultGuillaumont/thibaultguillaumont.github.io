@@ -83,6 +83,10 @@ sections:
         text: Exploration de vue à 360°
         url: 'projects/visite360'
         icon: panorama.jpg
+      - title: eCorpus - Notre-Dame de Paris
+        text: Mini-site sur les numérisations de décor de Notre-Dame
+        url: 'projects/notredame'
+        icon: ecorpus.jpg
         
 
 
