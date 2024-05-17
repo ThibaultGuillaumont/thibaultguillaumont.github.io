@@ -21,7 +21,8 @@
   <!-- Google fonts -->
   <link rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Roboto+Mono">
-  <link href="https://cdn.jsdelivr.net/gh/smithsonian/dpo-voyager@latest/assets/fonts/fonts.css" rel="stylesheet">    
+  <link href="https://cdn.jsdelivr.net/gh/smithsonian/dpo-voyager@latest/assets/fonts/fonts.css" rel="stylesheet">   
+  
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,6 +48,21 @@
   <!-- Custom scripts for this template -->
   <script src="{{site.url}}/assets/js/creative.js"></script>
   <script src="{{site.url}}/assets/js/slider.js"></script>
+
+
+  <script>
+    var step =0;
+    function setTourStep(stepIdx) {
+	// Get reference to the Explorer element by id
+	var voyagerElement = document.getElementById("PIT38_Chap");
+	
+	// Call the setTourStep function with the value of the 
+	// option input element as the parameter.
+	// **Note the hard-coded tour index and interpolate flag.
+	voyagerElement.setTourStep(0, stepIdx, true);
+  setTimeout(function() {setTourStep(stepIdx+1); }, 3000);
+}
+</script>
 </body>
 
 </html>
