@@ -51,16 +51,14 @@
 
 
   <script>
-    var step =0;
-    function setTourStep(stepIdx) {
+    function setTourStep(id, stepIdx) {
 	// Get reference to the Explorer element by id
-	var voyagerElement = document.getElementById("PIT38_Chap");
+	var voyagerElement = document.getElementById(id);
 	
 	// Call the setTourStep function with the value of the 
 	// option input element as the parameter.
 	// **Note the hard-coded tour index and interpolate flag.
 	voyagerElement.setTourStep(0, stepIdx, true);
-  setTimeout(function() {setTourStep(stepIdx+1); }, 3000);
 }
 </script>
 </body>

@@ -1,5 +1,9 @@
-<button onclick="setTourStep(step++)">Go</button>
-  <div class="ecorpus_container">
+<div class="text-center">
+  {% for button in section.button  %}
+    <button class="{{button.style}}" onclick="setTourStep('{{section.scene}}',{{button.step}})">{{button.text}}</button>
+  {% endfor %}
+</div>
+<div class="ecorpus_container">
     <voyager-explorer id="{{section.scene}}" root='{{section.server}}/scenes/{{section.scene}}/' document='scene.svx.json'></voyager-explorer>
     <script src="{{section.server}}/dist/js/voyager-explorer.js"></script>
     </div>

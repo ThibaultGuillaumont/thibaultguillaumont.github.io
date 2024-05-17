@@ -21,6 +21,36 @@ sections:
 - type: ecorpus.html
   server: https://notredamedeparis.ecorpus.holusion.com
   scene: PIT38_Chap
+  button: 
+    - text: Points Communs
+      style: btn-success
+      step: 0
+
+    - text: Différences
+      style: btn-danger
+      step: 1    
+
+- type: paragraph.html
+  section_id: more-to-come
+#  background_style: bg-info
+  text_style: text-justify
+  text: >
+
+    Clés de voûtes
+
+- type: ecorpus.html
+  server: https://notredamedeparis.ecorpus.holusion.com
+  scene: Clef_NF_37-40
+  button: 
+    - text: Points Communs
+      style: btn-success
+      step: 3
+
+    - text: Différences
+      style: btn-danger
+      step: 4    
+
+
 
 - type: paragraph.html
   section_id: more-to-come
@@ -30,22 +60,21 @@ sections:
 
     Cloture du choeur
 
-
-
 - type: ecorpus.html
   server: https://notredamedeparis.ecorpus.holusion.com
   scene: Cloture%20du%20Choeur
+  button: 
+    - text: Arrivée à Jerusalem
+      style: btn-info
+      step: 1
 
+    - text: Miracle de la résurection
+      style: btn-info
+      step: 2    
+
+    - text: Musicien
+      style: btn-info
+      step: 7       
 ---
 
-<script>
-    function setTourStep(stepIdx) {
-	// Get reference to the Explorer element by id
-	var voyagerElement = document.getElementById("PIT38_Chap");
-	
-	// Call the setTourStep function with the value of the 
-	// option input element as the parameter.
-	// **Note the hard-coded tour index and interpolate flag.
-	voyagerElement.setTourStep(0, 1, true);
-}
-</script>
+
