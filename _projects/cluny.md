@@ -1,19 +1,19 @@
 ---
 layout: page
-title: Blender
+title: Musée du Moyen-Âge
 #background_style: bg-info
-background_image: url('/assets/img/projects/escalier.png
+background_image: url('/assets/img/slider/PC13_alpha.png
 
 
 sections:
 - type: paragraph.html
   section_id: Blender
-  title: "Eevee vs. Cycle"
+  title: "Comparaison de deux chapiteaux de Notre-Dame de Paris"
 #  background_style: bg-info
 #  text_style: text-left text-white
   text: >
 
-    ## Comparaison des moteurs de rendus Eevee et Cycles
+    ## Etude d'un chapiteau du déambulatoire et d'un chapiteau des réserves
 
 
 
@@ -24,7 +24,7 @@ sections:
 
 - type: paragraph.html
   section_id: Blender
-  title: "Eevee vs. Cycle"
+  title: "PC 13 / FNI 65"
   #  background_style: bg-info
   #  text_style: text-left text-white
   text: >
