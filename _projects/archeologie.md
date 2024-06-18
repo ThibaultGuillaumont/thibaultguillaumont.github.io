@@ -19,6 +19,14 @@ sections:
 - type: ecorpus.html
   server: https://man.ecorpus.holusion.com
   scene: La%20dame%20de%20Brassempouy
+
+- type: call-to-action.html
+  style: "padding:0px;"
+  actions:
+  - url : https://musee-archeologienationale.fr/collection/objet/la-dame-la-capuche
+    title : "Crédits et plus d'informations"
+
+
 ---
 
 
