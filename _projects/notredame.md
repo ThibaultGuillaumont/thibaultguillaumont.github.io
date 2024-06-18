@@ -28,7 +28,10 @@ sections:
 
     - text: Différences
       style: btn-danger
-      step: 1    
+      step: 1   
+    - text: No UI?
+      style: btn-info
+      step: 3  
 
 - type: paragraph.html
   section_id: more-to-come

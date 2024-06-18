@@ -4,6 +4,6 @@
   {% endfor %}
 </div>
 <div class="ecorpus_container">
-    <voyager-explorer id="{{section.scene}}" root='{{section.server}}/scenes/{{section.scene}}/' document='scene.svx.json'></voyager-explorer>
+    <voyager-explorer bgcolor="#fff" bgstyle="solid" id="{{section.scene}}" uiMode="none|title|language" document='scene.svx.json' root = '{{section.server}}/scenes/{{section.scene}}/'></voyager-explorer>
     <script src="{{section.server}}/dist/js/voyager-explorer.js"></script>
     </div>

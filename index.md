@@ -87,7 +87,10 @@ sections:
         text: Mini-site sur les numérisations de décor de Notre-Dame
         url: 'projects/notredame'
         icon: ecorpus.jpg
-        
+      - title: eCorpus - archéologie
+        text: Visualiser la Dame à la capuche
+        url: 'projects/archeologie'
+        icon: archeo.jpg        
 
 
   - type: aside.html
